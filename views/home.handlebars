@@ -1,1 +1,9 @@
 <h1>HB Home Page......</h1>
+<p>{{stock}}</p>
+<br /><br />
+
+{{#each stock}}
+  {{@key}}
+  |
+  {{this}}<br />
+{{/each}}
