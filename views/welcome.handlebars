@@ -1,0 +1,104 @@
+</br>
+<center>
+
+   <div class="row">
+      <!-- Modal to display Some Sample Company Exchange Symbols -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Some Sample Company Exchange Symbols </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <table class="table">
+                     <thead>
+                        <tr>
+                           <th scope="col">Company</th>
+                           <th scope="col">Exchange Symbol</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Alphabet</td>
+                           <td><strong>goog</strong></td>
+                        </tr>
+                        <tr>
+                           <td>Google</td>
+                           <td><strong>googl</strong></td>
+                        </tr>
+                        <tr>
+                           <td>Amazon</td>
+                           <td><strong>amzn</strong></td>
+                        </tr>
+                        <tr>
+                           <td>Meta (Facebook)</td>
+                           <td><strong>fb</strong></td>
+                        </tr>
+                        <tr>
+                           <td>Apple</td>
+                           <td><strong>aapl</strong></td>
+                        </tr>
+                        <tr>
+                           <td>Microsoft</td>
+                           <td><strong>msft</strong></td>
+                        </tr>
+                        <tr>
+                           <td>Adobe</td>
+                           <td><strong>adbe</strong></td>
+                        </tr>
+                        <tr>
+                           <td>The Coca-Cola Co. </td>
+                           <td><strong>ko</strong></td>
+                        </tr>
+                        <tr>
+                           <td>FORD MOTOR CO </td>
+                           <td><strong>f</strong></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <a href="https://iextrading.com/trading/eligible-symbols/" target="_blank"><button type="button" class="btn btn-primary">Check Out Full List of Exchange Symbols</button></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
+<section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Stockfluent</h1>
+        <p class="text-muted">Checking Stock details of your favorite company is now really easy!.</p>
+      </div>
+    </div>
+  </section>
+<div class="container">
+      <div class=" w-100 col-md-10 mx-auto col-lg-5">
+      <form class="form-inline bg-light rounded-5" action='/' method='POST'>
+      <div class="w-100 form-floating ">
+      <input 
+      name='stock_ticker'
+      class='w-100 form-control mb-3' 
+      type='search' 
+      placeholder='Exchange Symbol' 
+      aria-label="search"
+      />
+      </div>
+                <button class="w-100 btn btn-lg btn-primary" type='submit'>Lookup Stocks</button>
+      </form>
+   </div>
+</div>
+
+   <div class="container">
+      <center>
+         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+         Click to view some sample company exchange symbols 
+         </button>
+      </center>
+  </div>
+</center>
